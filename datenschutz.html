@@ -32,7 +32,7 @@
 <div class="wrap">
   <header class="app"><div class="logo"></div><strong>Scan2Cloud</strong></header>
   <h1>Datenschutzerklärung</h1>
-  <p class="meta">Stand: 03.07.2026</p>
+  <p class="meta">Stand: 06.11.2026</p>
 
   <div class="note">
     <strong>Hinweis:</strong> Diese Datenschutzerklärung ist auf die Funktionsweise der App
@@ -56,8 +56,10 @@ E-Mail: tobi@triline.de</pre>
       <li>Es findet <strong>kein Tracking</strong>, keine Analyse und keine Werbung statt.</li>
       <li>Es werden <strong>keine Daten an den Anbieter der App übertragen</strong>.</li>
       <li>Gescannte Dokumente verlassen dein Gerät nur auf deinen ausdrücklichen Wunsch und
-          ausschließlich in dein eigenes Microsoft-OneDrive, in ein von dir gewähltes OneNote-Notizbuch
-          bzw. in von dir gewählte Speicherorte der App „Dateien".</li>
+          ausschließlich in dein eigenes Microsoft-OneDrive, in ein von dir gewähltes OneNote-Notizbuch,
+          in von dir gewählte Speicherorte der App „Dateien", an ein von dir gewähltes Gerät im lokalen
+          Netzwerk oder – wenn du den iCloud-Abgleich einschaltest – in deine eigene private iCloud.</li>
+      <li>Texterkennung und Dokument-Kategorien werden <strong>auf dem Gerät</strong> berechnet.</li>
     </ul>
 
     <h2>3. Verarbeitete Daten, Zwecke und Rechtsgrundlagen</h2>
@@ -99,12 +101,13 @@ E-Mail: tobi@triline.de</pre>
     App-Anbieter erhält davon keine Kenntnis.</p>
 
     <h3>e) Verlauf und lokale Kopie auf dem Gerät</h3>
-    <p>Die Liste deiner Scans sowie eine PDF-Kopie jedes Dokuments werden im geschützten,
-    app-eigenen Bereich deines Geräts gespeichert, damit sie nach einem Neustart weiterhin
-    verfügbar sind (Ansehen, erneut speichern oder teilen). Diese Daten verbleiben
-    <strong>ausschließlich lokal auf deinem Gerät</strong>, werden nicht an den Anbieter
-    übertragen und lassen sich jederzeit durch Wischen zum Löschen in der Liste oder durch
-    Deinstallation der App entfernen.</p>
+    <p>Die Liste deiner Scans sowie eine PDF-Kopie jedes Dokuments, die unbearbeiteten
+    Originalseiten (damit sich Bearbeitungen zurücknehmen lassen), der erkannte Text, Ordner,
+    Kategorien und eine optional gezeichnete Unterschrift werden im geschützten, app-eigenen
+    Bereich deines Geräts gespeichert. Diese Daten verbleiben <strong>auf deinem Gerät</strong>
+    – es sei denn, du schaltest den iCloud-Abgleich ein (siehe g) –, werden nicht an den Anbieter
+    übertragen und lassen sich jederzeit in der App löschen („Löschen“ bzw. „Konto entfernen“)
+    oder durch Deinstallation der App entfernen.</p>
 
     <h3>f) Direktversand im lokalen Netzwerk (LocalSend)</h3>
     <p>Auf deinen Wunsch kann ein Scan direkt an andere Geräte in deinem lokalen Netzwerk
@@ -116,23 +119,49 @@ E-Mail: tobi@triline.de</pre>
     die iOS-Freigabe „Lokales Netzwerk" erforderlich. Empfänger ist ausschließlich das von dir
     ausgewählte Zielgerät. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
 
+    <h3>g) iCloud-Abgleich (optional)</h3>
+    <p>Wenn du in den Einstellungen „Verlauf mit iCloud abgleichen“ einschaltest (standardmäßig
+    aus), werden deine Scans samt PDF und Originalseiten, der erkannte Text, Ordner und Kategorien
+    in der <strong>privaten iCloud-Datenbank deines eigenen Apple-Accounts</strong> (Apple CloudKit)
+    gespeichert, damit sie auf deinen anderen Geräten verfügbar sind. Die Metadaten einschließlich
+    des erkannten Texts werden dabei zusätzlich verschlüsselt. Nur du hast Zugriff – der
+    App-Anbieter kann diese Daten nicht einsehen. Abläufe, Favoriten und die Unterschrift werden
+    nicht abgeglichen. Über „Daten in iCloud löschen“ bzw. „Konto entfernen“ entfernst du alle
+    Daten der App aus deiner iCloud. Es gilt die
+    <a href="https://www.apple.com/de/legal/privacy/" target="_blank" rel="noopener">Apple-Datenschutzrichtlinie</a>.
+    Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
+
+    <h3>h) Texterkennung und Dokument-Kategorien</h3>
+    <p>Damit Scans durchsuchbar sind, einen Namen erhalten und einer Kategorie (z. B. Beleg,
+    Rechnung, Vertrag) zugeordnet werden, erkennt die App den Text mit Apples Texterkennung
+    (Vision) und bestimmt die Kategorie per Stichwortsuche bzw. – sofern verfügbar – mit dem
+    Sprachmodell von Apple Intelligence. Beides läuft <strong>vollständig auf deinem Gerät</strong>;
+    dabei werden keine Daten übertragen. Die Kategorie dient nur dem Sortieren und dem Starten
+    von dir eingerichteter Abläufe.</p>
+
+    <h3>i) Fotos, E-Mail und Teilen</h3>
+    <p>Fotos importierst du über die iOS-Fotoauswahl; die App erhält nur die von dir gewählten
+    Bilder. E-Mails und das Teilen erfolgen über die Systemdialoge von iOS – Empfänger und
+    Versand bestimmst du selbst; der App-Anbieter erhält davon keine Kenntnis.</p>
+
     <h2>4. Empfänger / Drittanbieter</h2>
     <ul>
       <li><strong>Microsoft</strong> – Anmeldung, OneDrive-Speicherung und OneNote-Ablage (Auslesen der Namen deiner Notizbücher/Abschnitte und Anlegen neuer Seiten) auf Grundlage deiner eigenen Nutzungsbeziehung zu Microsoft.</li>
-      <li><strong>Apple</strong> – App-Store-Bereitstellung, iOS-Systemdienste (Schlüsselbund, „Dateien").</li>
+      <li><strong>Apple</strong> – App-Store-Bereitstellung, iOS-Systemdienste (Schlüsselbund, „Dateien", Mail, Teilen) sowie – nur bei eingeschaltetem Abgleich – iCloud (CloudKit) in deinem eigenen Apple-Account.</li>
     </ul>
     <p>Darüber hinaus werden keine Daten an Dritte weitergegeben.</p>
 
     <h2>5. Übermittlung in Drittländer</h2>
-    <p>Bei der Nutzung von Microsoft-Diensten kann eine Verarbeitung auch in den USA erfolgen.
-    Microsoft stützt solche Übermittlungen u. a. auf das EU-US Data Privacy Framework und/oder
-    EU-Standardvertragsklauseln.</p>
+    <p>Bei der Nutzung von Microsoft-Diensten bzw. von iCloud kann eine Verarbeitung auch in den
+    USA erfolgen. Microsoft und Apple stützen solche Übermittlungen u. a. auf das EU-US Data
+    Privacy Framework und/oder EU-Standardvertragsklauseln.</p>
 
     <h2>6. Speicherdauer</h2>
     <table>
       <tr><th>Daten</th><th>Dauer</th></tr>
       <tr><td>Auth-Token</td><td>bis zur Abmeldung („Abmelden") bzw. Deinstallation; beim Abmelden aus dem Schlüsselbund gelöscht</td></tr>
-      <tr><td>Verlauf &amp; lokale PDF-Kopien auf dem Gerät</td><td>bis zur Löschung durch dich (Wischgeste) bzw. Deinstallation der App</td></tr>
+      <tr><td>Verlauf, PDF-Kopien und Originalseiten auf dem Gerät</td><td>bis zur Löschung durch dich bzw. Deinstallation der App</td></tr>
+      <tr><td>Abgeglichene Daten in deiner iCloud</td><td>bis du „Daten in iCloud löschen“ bzw. „Konto entfernen“ wählst oder sie in deinem Apple-Account löschst</td></tr>
       <tr><td>PDFs in OneDrive / Seiten in OneNote / „Dateien"</td><td>unter deiner eigenen Kontrolle</td></tr>
     </table>
 
@@ -140,7 +169,7 @@ E-Mail: tobi@triline.de</pre>
     <p>Dir stehen Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung
     (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) zu. Da der App-Anbieter
     selbst keine personenbezogenen Daten von dir speichert, richten sich Anliegen zu in OneDrive
-    oder OneNote gespeicherten Daten direkt an Microsoft. Du hast zudem ein Beschwerderecht bei einer
+    oder OneNote gespeicherten Daten direkt an Microsoft, zu iCloud-Daten an Apple. Du hast zudem ein Beschwerderecht bei einer
     Datenschutz-Aufsichtsbehörde (Art. 77 DSGVO).</p>
 
     <h2>8. Berechtigungen der App</h2>
@@ -151,7 +180,8 @@ E-Mail: tobi@triline.de</pre>
     </table>
 
     <h2>9. Keine automatisierte Entscheidungsfindung</h2>
-    <p>Es findet kein Profiling und keine automatisierte Entscheidungsfindung i. S. v. Art. 22 DSGVO statt.</p>
+    <p>Es findet kein Profiling und keine automatisierte Entscheidungsfindung i. S. v. Art. 22 DSGVO statt.
+    Die automatische Kategorie eines Dokuments (siehe h) dient nur dem Sortieren und lässt sich jederzeit ändern.</p>
 
     <h2>10. Änderungen dieser Datenschutzerklärung</h2>
     <p>Wir passen diese Erklärung an, wenn sich die App oder die Rechtslage ändert. Es gilt die
